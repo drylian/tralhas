@@ -8,9 +8,6 @@ sudo apt install -y xorg gdm3 gnome-backgrounds gnome-session adwaita-icon-theme
 
 echo "Comandos de tela instalados com sucesso."
 
-echo "Instalando navegador Microsoft Edge"
-
-sudo dpkg -i package_file.deb
 echo "Reiniciando sistema para abrir tela"
 
 sudo reboot
