@@ -11,11 +11,10 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 echo "Atualizando Repo WineHQ"
 sudo apt update
 echo "Iniciando instalação do WineHQ Stable"
-sudo apt install --install-recommends winehq-stable
+sudo apt install --install-recommends winehq-stable -y
 echo "Instalação WineHQ completa"
-echo "Instalando Qjoypad(controles xbox),discord,libfuse2 e zenity(para rodar appimage)"
+echo "Instalando Qjoypad(controles xbox),libfuse2 e zenity(para rodar appimage)"
 sudo apt install qjoypad -y
-sudo snap install discord -y
 sudo apt install libfuse2 -y
 sudo apt install zenity -y
 echo "Iniciando instalação do Gnome-disk-utility(Montador de disco)"
