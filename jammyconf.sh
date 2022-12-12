@@ -1,5 +1,4 @@
 echo "iniciando instalador Versão Jammy(22.04.1+) , root necessario"
-sudo su
 echo "Instalando repos iniciais e outros."
 sudo apt apdate -y
 sudo apt upgrade -y
