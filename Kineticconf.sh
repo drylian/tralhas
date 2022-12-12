@@ -1,5 +1,4 @@
 echo "iniciando instalador Versão Kinetic Kudu(22.10) , root necessario"
-sudo su
 echo "Instalando repos iniciais e outros."
 sudo apt apdate -y
 sudo apt upgrade -y
