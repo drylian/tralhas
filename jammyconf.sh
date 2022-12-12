@@ -1,6 +1,6 @@
 echo "iniciando instalador Versão Jammy(22.04.1+) , root necessario"
 echo "Instalando repos iniciais e outros."
-sudo apt audate 
+sudo apt update 
 sudo apt upgrade 
 echo "Instalando repo WineHQ"
 sudo dpkg --add-architecture i386 
@@ -18,4 +18,6 @@ sudo apt install libfuse2 -y
 sudo apt install zenity -y
 echo "Iniciando instalação do Gnome-disk-utility(Montador de disco)"
 sudo apt-get install gnome-disk-utility -y
-echo "instalação completa , por enquanto"
+echo "instalando java default"
+sudo apt install default-jdk
+echo "Instalação completa."
