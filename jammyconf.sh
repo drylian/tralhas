@@ -1,7 +1,7 @@
 echo "iniciando instalador Versão Jammy(22.04.1+) , root necessario"
 echo "Instalando repos iniciais e outros."
-sudo apt apdate -y
-sudo apt upgrade -y
+sudo apt apdate 
+sudo apt upgrade 
 echo "Instalando repo WineHQ"
 sudo dpkg --add-architecture i386 
 sudo mkdir -pm755 /etc/apt/keyrings
