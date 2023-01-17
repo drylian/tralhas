@@ -9,3 +9,6 @@ Versão:Kinetic (ubuntu 22.10)
 
 Versão:Jammy (ubuntu 22.04.1+)
 ```bash <(curl -s https://raw.githubusercontent.com/drylian/tralhas/main/jammyconf.sh)```
+
+Executavel VPS Egg
+```bash <(curl -s https://raw.githubusercontent.com/drylian/tralhas/main/installer.sh)```
