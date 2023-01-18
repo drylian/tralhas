@@ -5,7 +5,6 @@ screen /home/sampsvr/startgtaserver.sh & # put in full path and name of startup 
 } 
  
 server_stop() {
-killall startgtaserver.sh # your startup script name
 killall samp03svr # need to put in path to killall if its not in $PATH
 } 
  
