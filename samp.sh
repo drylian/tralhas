@@ -8,7 +8,7 @@
         echo "==> Servidor Iniciado. <=="
     else
         echo "==> O Samp Linux Não Detectado, O Sistema de donwload será iniciado. <=="
-        curl -L -o ./ "https://github.com/drylian/tralhas/releases/latest/download/samp03svr"
+        curl -L -o /home/container "https://github.com/drylian/tralhas/releases/latest/download/samp03svr"
         echo "==> Download Terminado, iniciando configurações padrões. <=="
         echo "==> Setando permissões padrões. <=="
         chmod 777 samp03svr
