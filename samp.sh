@@ -1,23 +1,19 @@
 #!/bin/bash
-bold=$(echo -en "\e[1m")
-nc=$(echo -en "\e[0m")
-lightblue=$(echo -en "\e[94m")
-lightgreen=$(echo -en "\e[92m")
-
     if [[ -f "./samp03svr" ]]; then
-        echo "${bold}${lightgreen}==> O Samp Linux foi detectado, O Sistema de donwload não será necessario. <=="
-        echo "${bold}${lightgreen}==> Setando permissões padrões. <=="
+        echo "==> O Samp Linux foi detectado, O Sistema de donwload não será necessario. <=="
+        echo "==> Setando permissões padrões. <=="
         chmod 777 samp03svr
-        echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
+        echo "==> Iniciando Servidor. <=="
         ./samp03svr
-        echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
+        echo "==> Servidor Iniciado. <=="
     else
-        echo "${bold}${lightgreen}==> O Samp Linux Não Detectado, O Sistema de donwload será iniciado. <=="
+        echo "==> O Samp Linux Não Detectado, O Sistema de donwload será iniciado. <=="
         curl -L -o ./ "https://github.com/drylian/tralhas/releases/latest/download/samp03svr)"
-        echo "${bold}${lightgreen}==> Download Terminado, iniciando configurações padrões. <=="
-        echo "${bold}${lightgreen}==> Setando permissões padrões. <=="
+        echo "==> Download Terminado, iniciando configurações padrões. <=="
+        echo "==> Setando permissões padrões. <=="
         chmod 777 samp03svr
-        echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
+        echo "==> Iniciando Servidor. <=="
         ./samp03svr
-        echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
+        echo "==> Servidor Iniciado. <=="
 fi
+echo "Completado"
