@@ -21,4 +21,5 @@ echo "${nc}"
         echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
         ./samp03svr
         echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
-echo "
+    echo "
+fi
