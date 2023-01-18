@@ -1,7 +1,7 @@
 #!/bin/bash
  
 server_start() {
-screen /home/sampsvr/startgtaserver.sh & # put in full path and name of startup script
+screen /home/container/samp.sh & # put in full path and name of startup script
 } 
  
 server_stop() {
