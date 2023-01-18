@@ -106,7 +106,7 @@ ${bold}${lightblue} @@@@@@   @@@             @@@           @@@                  
 ${bold}${lightblue}  @@@@    @@@         @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ${bold}${lightblue}   @@     @@@        @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                                                        
-${bold}${lightblue}                 ...ISTO PODE DEMORAR UM POUCO...
+${bold}${lightblue}          ...ISTO PODE DEMORAR MAIS DE 15 MINUTOS SEJA PACIENTE...
 
 ${bold}${lightgreen}========================================================================
  "
