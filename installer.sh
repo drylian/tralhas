@@ -21,25 +21,25 @@ lightgreen=$(echo -en "\e[92m")
 echo "
 ${bold}${lightgreen}========================================================================
                                                                                                   
-${bold}${lightblue}@@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@    @@@@@@      @@@  @@@  @@@@@@@@@@
-${bold}${lightblue}@@@@@@@@  @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@     @@@  @@@  @@@@@@@@@@@    
-${bold}${lightblue}@@!  @@@    @@!    @@!       @@!  @@@  @@!  @@@     @@!  @@@  @@! @@! @@!    
-${bold}${lightblue}!@!  @!@    !@!    !@!       !@!  @!@  !@!  @!@     !@!  @!@  !@! !@! !@!     
-${bold}${lightblue}@!@@!@!     @!!    @!!!:!    @!@!!@!   @!@  !@!     @!@  !@!  @!! !!@ @!@      
-${bold}${lightblue}!!@!!!      !!!    !!!!!:    !!@!@!    !@!  !!!     !@!  !!!  !@!   ! !@!        
-${bold}${lightblue}!!:         !!:    !!:       !!: :!!   !!:  !!!     :!:  !!:  !!:     !!:        
-${bold}${lightblue}:!:         :!:    :!:       :!:  !:!  :!:  !:!      ::!!:!   :!:     :!:            
-${bold}${lightblue} ::          ::     :: ::::  ::   :::  ::::: ::       ::::    :::     ::        
-${bold}${lightblue} :           :     : :: ::    :   : :   : :  :         :       :      :          
+${bold}${lightblue} @@  @@   @@@@@@      @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@@   @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   
+${bold}${lightblue}@@@  @@@  @@@   @@@  @@@                @@@                          @@@
+${bold}${lightblue}@@@  @@@  @@@   @@@  @@@                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@@   @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@     @@@@@@@           @@@                          @@@
+${bold}${lightblue} @@@@@@   @@@             @@@           @@@                          @@@
+${bold}${lightblue}  @@@@    @@@         @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}   @@     @@@        @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                                                                                   
-                                                                                                                
+${bold}${lightblue}                 ...ISTO PODE DEMORAR UM POUCO...
+
 ${bold}${lightgreen}========================================================================
  "
  
 echo "${nc}"
 
 if [[ -f "./installed" ]]; then
-    echo "${bold}${lightgreen}==> Started ${lightblue}Container${lightgreen} <=="
+    echo "${bold}${lightgreen}==> Iniciado em ${lightblue}Container${lightgreen} <=="
     function runcmd1 {
         printf "${bold}${lightgreen}Default${nc}@${lightblue}Container${nc}:~ "
         read -r cmdtorun
@@ -54,7 +54,7 @@ if [[ -f "./installed" ]]; then
     }
     runcmd
 else
-    echo "Downloading files for application"
+    echo "Baixando arquivos para iniciar a vps"
     curl -sSLo ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip >/dev/null 2>err.log
     echo -ne '#                   (5%)\r'
     curl -sSLo files.zip https://github.com/RealTriassic/Ptero-VM-JAR/releases/download/latest/files.zip >/dev/null 2>err.log
@@ -96,24 +96,24 @@ else
     echo "
 ${bold}${lightgreen}========================================================================
                                                                                                   
-${bold}${lightblue}@@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@    @@@@@@      @@@  @@@  @@@@@@@@@@
-${bold}${lightblue}@@@@@@@@  @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@     @@@  @@@  @@@@@@@@@@@    
-${bold}${lightblue}@@!  @@@    @@!    @@!       @@!  @@@  @@!  @@@     @@!  @@@  @@! @@! @@!    
-${bold}${lightblue}!@!  @!@    !@!    !@!       !@!  @!@  !@!  @!@     !@!  @!@  !@! !@! !@!     
-${bold}${lightblue}@!@@!@!     @!!    @!!!:!    @!@!!@!   @!@  !@!     @!@  !@!  @!! !!@ @!@      
-${bold}${lightblue}!!@!!!      !!!    !!!!!:    !!@!@!    !@!  !!!     !@!  !!!  !@!   ! !@!        
-${bold}${lightblue}!!:         !!:    !!:       !!: :!!   !!:  !!!     :!:  !!:  !!:     !!:        
-${bold}${lightblue}:!:         :!:    :!:       :!:  !:!  :!:  !:!      ::!!:!   :!:     :!:            
-${bold}${lightblue} ::          ::     :: ::::  ::   :::  ::::: ::       ::::    :::     ::        
-${bold}${lightblue} :           :     : :: ::    :   : :   : :  :         :       :      :          
+${bold}${lightblue} @@  @@   @@@@@@      @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@@   @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   
+${bold}${lightblue}@@@  @@@  @@@   @@@  @@@                @@@                          @@@
+${bold}${lightblue}@@@  @@@  @@@   @@@  @@@                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@@   @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}@@@  @@@  @@@@@@@     @@@@@@@           @@@                          @@@
+${bold}${lightblue} @@@@@@   @@@             @@@           @@@                          @@@
+${bold}${lightblue}  @@@@    @@@         @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+${bold}${lightblue}   @@     @@@        @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                                                                                   
-                                                                                                                
+${bold}${lightblue}                 ...Iniciando Servidor Vps...
+
 ${bold}${lightgreen}========================================================================
  "
  
 echo "${nc}"
     
-    echo "${bold}${lightgreen}==> Started ${lightblue}Container${lightgreen} <=="
+    echo "${bold}${lightgreen}==> iniciado em ${lightblue}Container${lightgreen} <=="
     function runcmd1 {
         printf "${bold}${lightgreen}Default${nc}@${lightblue}Container${nc}:~ "
         read -r cmdtorun
