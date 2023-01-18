@@ -1,4 +1,9 @@
 #!/bin/bash
+bold=$(echo -en "\e[1m")
+nc=$(echo -en "\e[0m")
+lightblue=$(echo -en "\e[94m")
+lightgreen=$(echo -en "\e[92m")
+
 echo "${nc}"
     if [[ -f "./samp03svr" ]]; then
         echo "${bold}${lightgreen}==> O Samp Linux foi detectado, O Sistema de donwload não será necessario. <=="
