@@ -31,7 +31,7 @@ ${bold}${lightblue} @@@@@@   @@@             @@@           @@@                  
 ${bold}${lightblue}  @@@@    @@@         @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ${bold}${lightblue}   @@     @@@        @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                                                                                   
-${bold}${lightblue}                 ...ISTO PODE DEMORAR UM POUCO...
+${bold}${lightblue}                    ...Iniciando Servidor Vps...
 
 ${bold}${lightgreen}========================================================================
  "
@@ -105,8 +105,8 @@ ${bold}${lightblue}@@@  @@@  @@@@@@@     @@@@@@@           @@@                  
 ${bold}${lightblue} @@@@@@   @@@             @@@           @@@                          @@@
 ${bold}${lightblue}  @@@@    @@@         @@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ${bold}${lightblue}   @@     @@@        @@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                                                                                  
-${bold}${lightblue}                 ...Iniciando Servidor Vps...
+                                                                       
+${bold}${lightblue}                 ...ISTO PODE DEMORAR UM POUCO...
 
 ${bold}${lightgreen}========================================================================
  "
