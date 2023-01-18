@@ -4,7 +4,6 @@ nc=$(echo -en "\e[0m")
 lightblue=$(echo -en "\e[94m")
 lightgreen=$(echo -en "\e[92m")
 
-echo "${nc}"
     if [[ -f "./samp03svr" ]]; then
         echo "${bold}${lightgreen}==> O Samp Linux foi detectado, O Sistema de donwload não será necessario. <=="
         echo "${bold}${lightgreen}==> Setando permissões padrões. <=="
@@ -21,5 +20,4 @@ echo "${nc}"
         echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
         ./samp03svr
         echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
-    echo "
 fi
