@@ -8,7 +8,6 @@ if [[ -f "./samp03svr" ]]; then
    chmod 777 samp03svr
    echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
    ./samp03svr
-    echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
 else
     echo "${bold}${lightgreen}==> O Samp Linux Não Detectado, O Sistema de download será iniciado. <=="
     curl -L -o /home/container/samp03svr "https://github.com/drylian/tralhas/releases/latest/download/samp03svr"
@@ -17,6 +16,5 @@ else
     chmod 777 samp03svr
     echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
     ./samp03svr
-    echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
 fi
-echo "${bold}${lightgreen}==>Terminado.<=="
+done
