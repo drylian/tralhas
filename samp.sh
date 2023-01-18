@@ -1,7 +1,13 @@
 #!/bin/bash
 bold=$(echo -en "\e[1m")
 lightgreen=$(echo -en "\e[92m")
-
+echo "Iniciando Sistema de Suporte"
+read n
+if [ $n -eq desligar ];
+then
+echo "${bold}${lightgreen}==> Desligando Servidor. <=="
+pkill samp03svr
+fi
 if [[ -f "./samp03svr" ]]; then
    echo "${bold}${lightgreen}==> O Samp Linux foi detectado, O Sistema de download não será necessario. <=="
    echo "${bold}${lightgreen}==> Setando permissões padrões. <=="
@@ -18,12 +24,5 @@ else
     echo "${bold}${lightgreen}==> Iniciando Servidor. <=="
     ./samp03svr
     echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
-fi
-echo "Servidor Online"
-read n
-if [ $n -eq desligar ];
-then
-echo "${bold}${lightgreen}==> Desligando Servidor. <=="
-pkill samp03svr
 fi
 echo "${bold}${lightgreen}==>Terminado.<=="
