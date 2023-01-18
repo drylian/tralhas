@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ -f "./samp03svr" ]]; then
     echo "${bold}${lightgreen}==> O Samp Linux foi detectado, O Sistema de donwload não será necessario. <=="
     echo "${bold}${lightgreen}==> Setando permissões padrões. <=="
