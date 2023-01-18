@@ -14,3 +14,6 @@ bash <(curl -s https://raw.githubusercontent.com/drylian/tralhas/main/jammyconf.
 
 Executavel VPS Egg
 ```bash <(curl -s https://raw.githubusercontent.com/drylian/tralhas/main/installer.sh)```
+
+Executalvel Samp Configs
+```bash <(curl -s https://raw.githubusercontent.com/drylian/tralhas/main/samp.sh)```
