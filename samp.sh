@@ -1,7 +1,5 @@
 #!/bin/bash
 bold=$(echo -en "\e[1m")
-nc=$(echo -en "\e[0m")
-lightblue=$(echo -en "\e[94m")
 lightgreen=$(echo -en "\e[92m")
 
 if [[ -f "./samp03svr" ]]; then
