@@ -19,4 +19,11 @@ else
     ./samp03svr
     echo "${bold}${lightgreen}==> Servidor Iniciado. <=="
 fi
-echo "${bold}${lightgreen}==>Terminado com Erro.<=="
+echo "Servidor Online"
+read n
+if [ $n -eq desligar ];
+then
+echo "${bold}${lightgreen}==> Desligando Servidor. <=="
+pkill samp03svr
+fi
+echo "${bold}${lightgreen}==>Terminado.<=="
