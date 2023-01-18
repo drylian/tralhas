@@ -1,4 +1,26 @@
 #!/bin/bash
+ 
+server_start() {
+screen /home/sampsvr/startgtaserver.sh & # put in full path and name of startup script
+} 
+ 
+server_stop() {
+killall startgtaserver.sh # your startup script name
+killall samp03svr # need to put in path to killall if its not in $PATH
+} 
+ 
+server_restart() {
+server_stop
+sleep 1
+server_start
+}
+case "$1" in
+'stop')
+server_stop
+;;
+echo "usage $0 start|stop|restart"
+esac
+
 bold=$(echo -en "\e[1m")
 lightgreen=$(echo -en "\e[92m")
 if [[ -f "./samp03svr" ]]; then
